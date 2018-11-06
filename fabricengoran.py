@@ -1,6 +1,5 @@
 for i in range (10):
     print('GCI is great')
->>>input("user name: ")
-   user name=" Carlos "
-   print("Hello %s, please to meet you "% user name)
-   print(" Did you know that your name backwards is solraC")
+name = input("What is your name? ")
+print("Please to meet you" +name+ "!")
+print("Did you know your name backwards is" +name [::-1])
