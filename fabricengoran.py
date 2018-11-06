@@ -1,4 +1,5 @@
->>>print("GCI is great"*10)
+for i in range (10):
+    print('GCI is great')
 >>>input("user name: ")
    user name=" Carlos "
    print("Hello %s, please to meet you "% user name)
